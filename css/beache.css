@@ -1,0 +1,24 @@
+hr{
+    border: 5px dotted aquamarine;
+    border-style: none none dotted; 
+    color:aquamarine; 
+    
+}
+
+.beache{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+h1,h2,h3,p{
+    text-align: center;
+}
+
+main article{
+    border-radius: 20px;
+}
+
+main{
+  padding: 50px;
+}

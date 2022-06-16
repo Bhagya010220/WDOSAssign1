@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#F2D1D1 ;
+  }
+  .logo-image{
+    width: 46px;
+    height: 10px;
+    border-radius: 50%;
+    
+    margin-top: -6px;
+}
+  .nav-links{
+    overflow: hidden;
+    background-color: #FFE6E6;
+    
+  }
+  
+  .nav-links li{
+    list-style-type:none;
+    float:right;
+  }
+  
+  .nav-links a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: kdam thmor pro;
+    font-size: 17px;
+  }
+  
+  .nav-links a:hover{
+    
+    color: #4B5D67;
+  }
+ 
+  
+
+  .row{
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      background-color: #F2D1D1;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      justify-content: center;
+      align-content: center;
+
+  }
+  
+  .row div{
+      background-color:#F2EBE9;
+      border-radius: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      flex: 33.3%;
+  }
+
+  .course_coll p,h1{
+      padding-left: 10px;
+      padding-right: 10px;
+      
+  }
+
+  .course_coll img{
+    padding-left: 90px;
+    width: auto;
+    
+}
+
+.course_coll h1{
+    text-align: center;
+}
+#foo{
+  text-align: center;
+        background-color: aquamarine;
+        border: solid black 1px;
+        padding: 2em;
+        margin: 2px;
+        
+}
+h5{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(1, 90, 35);
+}
+
+
+
+
+
+.hotels{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: row;
+    
+    background-color:#F2D1D1;
+  
+}
+
+
+.hotels div{
+    background-color: #F2EBE9;
+    padding: 10px;
+    border-radius: 20px;
+    flex: 50%;
+  
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.wl{
+    width: 30%;
+}
+
+.wl1{
+    width: 30%;
+}
+Button {
+	background-color:#F2EBE9;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#1c161c;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+Button:hover {
+	background-color:#F2D1D1;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+button a{
+    text-decoration: none;
+    color: #1c161c;
+}
+.text-box{
+    background-color: #F2D1D1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+article{
+    background:#FDE7DD;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main{
+    
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+}
+
+video{
+  width: 100%;
+  
+  
+}

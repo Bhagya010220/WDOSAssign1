@@ -1,0 +1,41 @@
+
+img{
+    border-radius: 20px;
+}
+
+
+h1,h2,h3,p{
+    text-align: center;
+}
+
+main article{
+    border-radius: 20px;
+}
+
+main{
+  padding: 50px;
+  
+}
+
+.button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
